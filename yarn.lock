@@ -5001,10 +5001,10 @@
   resolved "https://registry.npmjs.org/@solana-program/stake/-/stake-0.2.1.tgz"
   integrity sha512-ssNPsJv9XHaA+L7ihzmWGYcm/+XYURQ8UA3wQMKf6ccEHyHOUgoglkkDU/BoA0+wul6HxZUN0tHFymC0qFw6sg==
 
-"@solana-program/system@^0.11.0":
-  version "0.11.0"
-  resolved "https://registry.yarnpkg.com/@solana-program/system/-/system-0.11.0.tgz#1f29d8cfef41402cee2ed9bd29986a7a1f106af7"
-  integrity sha512-SJeQVTkqGZzIXd7XHlCxnfpKpvPZghB1IFwddPPG04ydVXtDLRWp9wLoTR5Prkl9FIWRe/c5VgT4nxyzW1cAuQ==
+"@solana-program/system@^0.12.0":
+  version "0.12.0"
+  resolved "https://registry.yarnpkg.com/@solana-program/system/-/system-0.12.0.tgz#a69ebdd9918d5a0d06246555965a59a829991ad9"
+  integrity sha512-ZnAAWeGVMWNtJhw3GdifI2HnhZ0A0H0qs8tBkcFvxp/8wIavvO+GOM4Jd0N22u2+Lni2zcwvcrxrsxj6Mjphng==
 
 "@solana-program/system@^0.7.0":
   version "0.7.0"
@@ -5021,10 +5021,12 @@
   resolved "https://registry.yarnpkg.com/@solana-program/token-2022/-/token-2022-0.9.0.tgz#34a4a374b7ecd6059fd97843868ed949facf2eca"
   integrity sha512-j8fPBc/oUApYF7aW0ub6cIV7dbbtXC+Y6oDcI9SUs6BXXSq+lj7p7XRU+GEH8qWfyQ5ziRiOLI9s2AZjJY1Icg==
 
-"@solana-program/token@^0.10.0":
-  version "0.10.0"
-  resolved "https://registry.yarnpkg.com/@solana-program/token/-/token-0.10.0.tgz#d156cc3ff0d8a66d31db1ea697b95b525b84d38c"
-  integrity sha512-6JhgF4tywgbzIBnbEFiSLpXe9ZimPzNheRQU7ksgD98Y4YCakcRI5VIAt2CUh/lTiLUOxGerW/oaK1QGF00FMw==
+"@solana-program/token@^0.11.0":
+  version "0.11.0"
+  resolved "https://registry.yarnpkg.com/@solana-program/token/-/token-0.11.0.tgz#23961f42537bb7f9dcdb11f9d399ac63f9bd4f69"
+  integrity sha512-/lB72Pcmkn5kjUfP1Vd8F86HBlhN9RN4hJYgUG5csc23w9LCdYom2CiRdGsK25KkR9UFf6ndCCAMh83hMo+ftw==
+  dependencies:
+    "@solana-program/system" "^0.12.0"
 
 "@solana-program/token@^0.5.1":
   version "0.5.1"
