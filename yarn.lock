@@ -1411,19 +1411,19 @@
     human-id "^4.1.1"
     prettier "^2.7.1"
 
-"@codama/cli@1.4.4":
-  version "1.4.4"
-  resolved "https://registry.yarnpkg.com/@codama/cli/-/cli-1.4.4.tgz#ff3c9dc4455839548bda64948e147902e53c799e"
-  integrity sha512-0uLecW/RZC2c1wx3j/eiRAYvilvNY+2DoyEYu/hV0OfM1/uIgIyuy5U+wolV+LY4wLFYdApjYdy+5D32lngCHg==
+"@codama/cli@1.5.0":
+  version "1.5.0"
+  resolved "https://registry.yarnpkg.com/@codama/cli/-/cli-1.5.0.tgz#074866ba3e2cfbc009185a6dc0ec307583bc59e4"
+  integrity sha512-+q62IvEA6o7ji/mcnGgAvyPWyiFx3cojVGrFNG8NSm0zFXrBk1lT3n/qg+2Ag8C8aHwno9boXgDTxV+P5VCDYw==
   dependencies:
-    "@codama/nodes" "1.5.0"
-    "@codama/visitors" "1.5.0"
-    "@codama/visitors-core" "1.5.0"
+    "@codama/nodes" "1.5.1"
+    "@codama/visitors" "1.5.1"
+    "@codama/visitors-core" "1.5.1"
     commander "^14.0.2"
     picocolors "^1.1.1"
     prompts "^2.4.2"
 
-"@codama/errors@1.5.0", "@codama/errors@^1.4.4", "@codama/errors@^1.5.0":
+"@codama/errors@1.5.0":
   version "1.5.0"
   resolved "https://registry.yarnpkg.com/@codama/errors/-/errors-1.5.0.tgz#26be4dfda5919a9939bd57c0b7093b7e6c744daa"
   integrity sha512-i4cS+S7JaZXhofQHFY3cwzt8rqxUVPNaeJND5VOyKUbtcOi933YXJXk52gDG4mc+CpGqHJijsJjfSpr1lJGxzg==
@@ -1432,29 +1432,51 @@
     commander "^14.0.2"
     picocolors "^1.1.1"
 
+"@codama/errors@1.5.1", "@codama/errors@^1.4.4", "@codama/errors@^1.5.0":
+  version "1.5.1"
+  resolved "https://registry.yarnpkg.com/@codama/errors/-/errors-1.5.1.tgz#66c93ea8a9d81c1f13debb19cc2f1af63c2a8c81"
+  integrity sha512-kdLk/OSLBt03DoViRU1Xr0M7NZ7J/CSqaXV8fooF9qMRGPRJdgUeW2VkCGlLXDQSaIALrls3HkHmKRKbqqjSOA==
+  dependencies:
+    "@codama/node-types" "1.5.1"
+    commander "^14.0.2"
+    picocolors "^1.1.1"
+
 "@codama/node-types@1.5.0":
   version "1.5.0"
   resolved "https://registry.yarnpkg.com/@codama/node-types/-/node-types-1.5.0.tgz#ada65954601c76bed8c6f8a718cccc640899103d"
   integrity sha512-Ebz2vOUukmNaFXWdkni1ZihXkAIUnPYtqIMXYxKXOxjMP+TGz2q0lGtRo7sqw1pc2ksFBIkfBp5pZsl5p6gwXA==
 
-"@codama/nodes-from-anchor@^1.2.9":
-  version "1.3.8"
-  resolved "https://registry.yarnpkg.com/@codama/nodes-from-anchor/-/nodes-from-anchor-1.3.8.tgz#a4314640b5c03e0c1e7d74b149bbe40759d03455"
-  integrity sha512-+nGg7YcXbuqrKDFh/8KBRtR3PcR7bJr4w4jy9pNogHpM5CsDcTEa+fiPRHcYh3CgbaX86DgTfvkEw2dmgf+qzg==
-  dependencies:
-    "@codama/errors" "1.5.0"
-    "@codama/nodes" "1.5.0"
-    "@codama/visitors" "1.5.0"
-    "@noble/hashes" "^2.0.1"
-    "@solana/codecs" "^5.1.0"
+"@codama/node-types@1.5.1":
+  version "1.5.1"
+  resolved "https://registry.yarnpkg.com/@codama/node-types/-/node-types-1.5.1.tgz#f44208f04e1a588f023829cd8b67e01a353cb1ae"
+  integrity sha512-jMGz93MSszb1iXAAyWWa0i7RQbLxGihLKRZ+zr9aBsjaFFmhXhONfTFeSXzbEfc05cajpd/gW2QI7xmQHlUDKQ==
 
-"@codama/nodes@1.5.0", "@codama/nodes@^1.4.4", "@codama/nodes@^1.5.0":
+"@codama/nodes-from-anchor@^1.3.9":
+  version "1.3.9"
+  resolved "https://registry.yarnpkg.com/@codama/nodes-from-anchor/-/nodes-from-anchor-1.3.9.tgz#4a522e338e7be3fcbc56e82d8e19e576fdc2f03e"
+  integrity sha512-7/E6vjy8GfdckZV6aRTt6YR8FjK8Fwt74au4p53uoocQ8zFWk9D1+d3WSxpKMNPKeFnAfI9hta/nT36XQ5MrGg==
+  dependencies:
+    "@codama/errors" "1.5.1"
+    "@codama/nodes" "1.5.1"
+    "@codama/visitors" "1.5.1"
+    "@noble/hashes" "^2.0.1"
+    "@solana/codecs" "^5.3.0"
+
+"@codama/nodes@1.5.0":
   version "1.5.0"
   resolved "https://registry.yarnpkg.com/@codama/nodes/-/nodes-1.5.0.tgz#4fca935a62c1adff94631abc60e103310025271e"
   integrity sha512-yg+xmorWiMNjS3n19CGIt/FZ/ZCuDIu+HEY45bq6gHu1MN3RtJZY+Q3v0ErnBPA60D8mNWkvkKoeSZXfzcAvfw==
   dependencies:
     "@codama/errors" "1.5.0"
     "@codama/node-types" "1.5.0"
+
+"@codama/nodes@1.5.1", "@codama/nodes@^1.4.4", "@codama/nodes@^1.5.0":
+  version "1.5.1"
+  resolved "https://registry.yarnpkg.com/@codama/nodes/-/nodes-1.5.1.tgz#b7dc48c49182905999e8f9249e9813dcc05f05ba"
+  integrity sha512-6fIoH5Cfa5dFUE1fRxymZloeNg02klOT4fHsWwQavkkRWkoySgiti//w0j1itiZj6j5O+usujrwsZUJqSFjnhQ==
+  dependencies:
+    "@codama/errors" "1.5.1"
+    "@codama/node-types" "1.5.1"
 
 "@codama/renderers-core@^1.3.4", "@codama/renderers-core@^1.3.5":
   version "1.3.5"
@@ -1492,14 +1514,14 @@
     nunjucks "^3.2.4"
     semver "^7.7.3"
 
-"@codama/validators@1.5.0":
-  version "1.5.0"
-  resolved "https://registry.yarnpkg.com/@codama/validators/-/validators-1.5.0.tgz#79bafe51dc7e3dd8393b777640275e143789bcc3"
-  integrity sha512-p3ufDxnCH1jiuHGzcBv4/d+ctzUcKD2K3gX/W8169tC41o9DggjlEpNy1Z6YAAhVb3wHnmXVGA2qmp32rWSfWw==
+"@codama/validators@1.5.1":
+  version "1.5.1"
+  resolved "https://registry.yarnpkg.com/@codama/validators/-/validators-1.5.1.tgz#ec952b78c9b32d787f34d7fe8bed9ec2361ebcd1"
+  integrity sha512-aUXl39AMa091CBWpYiK2XCXP/uyKOOtAT399TzRld3z8dIH9E0fGyu4ocP+IhQKXWXDPsh7V3qPmqsdyevOPcQ==
   dependencies:
-    "@codama/errors" "1.5.0"
-    "@codama/nodes" "1.5.0"
-    "@codama/visitors-core" "1.5.0"
+    "@codama/errors" "1.5.1"
+    "@codama/nodes" "1.5.1"
+    "@codama/visitors-core" "1.5.1"
 
 "@codama/visitors-core@1.5.0", "@codama/visitors-core@^1.4.4", "@codama/visitors-core@^1.5.0":
   version "1.5.0"
@@ -1510,14 +1532,23 @@
     "@codama/nodes" "1.5.0"
     json-stable-stringify "^1.3.0"
 
-"@codama/visitors@1.5.0":
-  version "1.5.0"
-  resolved "https://registry.yarnpkg.com/@codama/visitors/-/visitors-1.5.0.tgz#25487d3570c39d00c4c8741fd85626c59dc6c26b"
-  integrity sha512-SwtQaleXxAaFz6uHygxki621q4nPUDQlnwEhsg+QKOjHpKWXjLYdJof+R8gUiTV/n7/IeNnjvxJTTNfUsvETPQ==
+"@codama/visitors-core@1.5.1":
+  version "1.5.1"
+  resolved "https://registry.yarnpkg.com/@codama/visitors-core/-/visitors-core-1.5.1.tgz#179a31bc632095b46ca70db84106732bf05671ab"
+  integrity sha512-JotrDJLI7OfPNHulu4KtPfUDF/FYMC3RgEnv9lu47Fiiy0upbGAw1NorgBuoreyJ9Uj0GZyHt7Q5rjrCoa1U0g==
   dependencies:
-    "@codama/errors" "1.5.0"
-    "@codama/nodes" "1.5.0"
-    "@codama/visitors-core" "1.5.0"
+    "@codama/errors" "1.5.1"
+    "@codama/nodes" "1.5.1"
+    json-stable-stringify "^1.3.0"
+
+"@codama/visitors@1.5.1":
+  version "1.5.1"
+  resolved "https://registry.yarnpkg.com/@codama/visitors/-/visitors-1.5.1.tgz#fc9739ef3fcc924ae5cd15252e6fd8f471d10f5f"
+  integrity sha512-8WcGP1tJKtqBfZ4mJsBRPjZ/H6+SPLWmiUoDTXRrVePQE4X4Yb04o6BoX2Uc3heZbfEc0rXdM1w8HTFvXBX4/A==
+  dependencies:
+    "@codama/errors" "1.5.1"
+    "@codama/nodes" "1.5.1"
+    "@codama/visitors-core" "1.5.1"
 
 "@colors/colors@1.5.0":
   version "1.5.0"
@@ -3924,12 +3955,12 @@
   resolved "https://registry.npmjs.org/@noble/hashes/-/hashes-1.7.0.tgz"
   integrity sha512-HXydb0DgzTpDPwbVeDGCG1gIu7X6+AuU6Zl6av/E/KG8LMsvPntvq+w17CHRpKBmN6Ybdrt1eP3k4cj8DJa78w==
 
-"@noble/hashes@1.7.1", "@noble/hashes@^1.5.0", "@noble/hashes@~1.7.1":
+"@noble/hashes@1.7.1", "@noble/hashes@~1.7.1":
   version "1.7.1"
   resolved "https://registry.npmjs.org/@noble/hashes/-/hashes-1.7.1.tgz"
   integrity sha512-B8XBPsn4vT/KJAGqDzbwztd+6Yte3P4V7iafm24bxgDe/mlRuK6xmWPuCNrKt2vDafZ8MfJLlchDG/vYafQEjQ==
 
-"@noble/hashes@1.8.0", "@noble/hashes@^1.0.0", "@noble/hashes@^1.2.0", "@noble/hashes@^1.3.1", "@noble/hashes@^1.4.0", "@noble/hashes@^1.6.1", "@noble/hashes@^1.8.0", "@noble/hashes@~1.8.0":
+"@noble/hashes@1.8.0", "@noble/hashes@^1.0.0", "@noble/hashes@^1.2.0", "@noble/hashes@^1.3.1", "@noble/hashes@^1.4.0", "@noble/hashes@^1.5.0", "@noble/hashes@^1.6.1", "@noble/hashes@^1.8.0", "@noble/hashes@~1.8.0":
   version "1.8.0"
   resolved "https://registry.npmjs.org/@noble/hashes/-/hashes-1.8.0.tgz"
   integrity sha512-jCs9ldd7NwzpgXDIf6P3+NrHh9/sD6CQdxHyjQI+h/6rDNo88ypBxxz45UDuZHz9r3tNz7N/VInSVoVdtXEI4A==
@@ -5306,7 +5337,7 @@
     "@solana/codecs-strings" "6.1.0"
     "@solana/options" "6.1.0"
 
-"@solana/codecs@^5.1.0":
+"@solana/codecs@^5.3.0":
   version "5.5.1"
   resolved "https://registry.yarnpkg.com/@solana/codecs/-/codecs-5.5.1.tgz#9e56d1caec5195ebaaee3e635ee6ab2c3a5a697b"
   integrity sha512-Vea29nJub/bXjfzEV7ZZQ/PWr1pYLZo3z0qW0LQL37uKKVzVFRQlwetd7INk3YtTD3xm9WUYr7bCvYUk3uKy2g==
@@ -9644,16 +9675,16 @@ clsx@^2.0.0, clsx@^2.1.1:
   resolved "https://registry.npmjs.org/clsx/-/clsx-2.1.1.tgz"
   integrity sha512-eYm0QWBtUrBWZWG0d386OGAw16Z995PiOVo2B7bjWSbHedGl5e0ZWaq65kOGgUSNesEIDkB9ISbTg/JK9dhCZA==
 
-codama@^1.3.7:
-  version "1.5.0"
-  resolved "https://registry.yarnpkg.com/codama/-/codama-1.5.0.tgz#9a9d9d93ea32e1c4b301490b2d56fa6ee1c86552"
-  integrity sha512-hhfSzrOiDX3bV7QmJneEBsBk3ln4gIcMJs6P8BlEJ3EFI+P0QZaTT5W61o8Tq0/79hTZeyj0gP65HZ/LYJil+w==
+codama@^1.5.1:
+  version "1.5.1"
+  resolved "https://registry.yarnpkg.com/codama/-/codama-1.5.1.tgz#bcfd0e65d4368e77d8ec58493e1d86e5eef0c1c2"
+  integrity sha512-kZbYgesIxwGNZ1JsYIWFzAsLtBuLZy/S1pCxJZgYaE13NJwDzi+bsEYqRSOUQ9ISN7FJR3SCyAE+vgzvcJpg2A==
   dependencies:
-    "@codama/cli" "1.4.4"
-    "@codama/errors" "1.5.0"
-    "@codama/nodes" "1.5.0"
-    "@codama/validators" "1.5.0"
-    "@codama/visitors" "1.5.0"
+    "@codama/cli" "1.5.0"
+    "@codama/errors" "1.5.1"
+    "@codama/nodes" "1.5.1"
+    "@codama/validators" "1.5.1"
+    "@codama/visitors" "1.5.1"
 
 collapse-white-space@^2.0.0:
   version "2.1.0"
